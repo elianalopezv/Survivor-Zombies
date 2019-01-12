@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class ATMScript : MonoBehaviour {
 
@@ -21,7 +22,9 @@ public class ATMScript : MonoBehaviour {
     void Start()
     {
         size = timeBar.localScale;
-    }
+         EventSystem.current.SetSelectedGameObject(answerField.gameObject);
+          answerField.ActivateInputField();
+     }
     void Update()
     {
         if (ATMCamera.enabled){
