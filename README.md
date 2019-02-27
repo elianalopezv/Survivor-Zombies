@@ -14,7 +14,7 @@ Collecting money and brains on the way!
 Yes. When the zombie guy throws money to the human, he will stop shooting. And when the zombie eats a delicious brain, the lost health will be restored.
 
 
-## 2. How Survivor-Zombies looks?
+## 2. How does Survivor-Zombies look?
 
 Yes. 3D or 2D art skills are not my best and I'm not proud of that. I know it can looks better.
 I didn't count with the help of an artist, so I borrowed some assets from the Unity store and Internet.
